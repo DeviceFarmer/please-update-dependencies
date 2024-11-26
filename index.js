@@ -83,11 +83,12 @@ function verify (mod) {
       }
 
       try {
-        depPkg = mod.require(path.join(name, './package.json'))
+        depPkg = mod.require(path.join(ctx.dir, './node_modules/', name, './package.json'))
       } catch (err) {
         console.error(ERROR, type, util.format(
-          '%s is not installed',
-          chalk.cyan(name)
+          '%s is not installed (%s)',
+          chalk.cyan(name),
+          chalk.red(err.code)
         ))
         return false
       }

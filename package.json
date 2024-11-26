@@ -1,6 +1,6 @@
 {
   "name": "@devicefarmer/please-update-dependencies",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "It checks that currently installed dependencies satisfy the requirements set in your package.json file",
   "keywords": [
     "dependencies",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "chalk": "^1.1.3",
-    "semver": "^5.3.0"
+    "semver": "^7.6.3"
   },
   "devDependencies": {
     "eslint": "^3.9.1",
