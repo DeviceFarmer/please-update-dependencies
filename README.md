@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **This repository is archived.** The dependency check now lives in STF itself, in [`lib/util/depcheck.ts`](https://github.com/DeviceFarmer/stf/blob/master/lib/util/depcheck.ts), starting with [STF 3.9.0](https://github.com/DeviceFarmer/stf/releases/tag/v3.9.0). The `@devicefarmer/please-update-dependencies` package on npm is deprecated and won't get further updates.
+
 # @devicefarmer/please-update-dependencies
 
 [![npm](https://img.shields.io/npm/v/@devicefarmer/please-update-dependencies.svg)](https://www.npmjs.com/package/@devicefarmer/please-update-dependencies)
